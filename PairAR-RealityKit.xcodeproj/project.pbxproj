@@ -12,6 +12,14 @@
 		A47120CC2435B9E500037D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47120CA2435B9E500037D27 /* Main.storyboard */; };
 		A47120CE2435B9EA00037D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A47120CD2435B9EA00037D27 /* Assets.xcassets */; };
 		A47120D12435B9EA00037D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A47120CF2435B9EA00037D27 /* LaunchScreen.storyboard */; };
+		A47120E02435DBEA00037D27 /* 02.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120D82435DBE600037D27 /* 02.usdz */; };
+		A47120E12435DBEA00037D27 /* 05.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120D92435DBE700037D27 /* 05.usdz */; };
+		A47120E22435DBEA00037D27 /* 07.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DA2435DBE700037D27 /* 07.usdz */; };
+		A47120E32435DBEA00037D27 /* 06.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DB2435DBE800037D27 /* 06.usdz */; };
+		A47120E42435DBEA00037D27 /* 03.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DC2435DBE900037D27 /* 03.usdz */; };
+		A47120E52435DBEA00037D27 /* 08.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DD2435DBE900037D27 /* 08.usdz */; };
+		A47120E62435DBEA00037D27 /* 01.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DE2435DBEA00037D27 /* 01.usdz */; };
+		A47120E72435DBEA00037D27 /* 04.usdz in Resources */ = {isa = PBXBuildFile; fileRef = A47120DF2435DBEA00037D27 /* 04.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		A47120CD2435B9EA00037D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A47120D02435B9EA00037D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A47120D22435B9EA00037D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A47120D82435DBE600037D27 /* 02.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 02.usdz; sourceTree = "<group>"; };
+		A47120D92435DBE700037D27 /* 05.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 05.usdz; sourceTree = "<group>"; };
+		A47120DA2435DBE700037D27 /* 07.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 07.usdz; sourceTree = "<group>"; };
+		A47120DB2435DBE800037D27 /* 06.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 06.usdz; sourceTree = "<group>"; };
+		A47120DC2435DBE900037D27 /* 03.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 03.usdz; sourceTree = "<group>"; };
+		A47120DD2435DBE900037D27 /* 08.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 08.usdz; sourceTree = "<group>"; };
+		A47120DE2435DBEA00037D27 /* 01.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 01.usdz; sourceTree = "<group>"; };
+		A47120DF2435DBEA00037D27 /* 04.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 04.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,14 @@
 		A47120C32435B9E500037D27 /* PairAR-RealityKit */ = {
 			isa = PBXGroup;
 			children = (
+				A47120DE2435DBEA00037D27 /* 01.usdz */,
+				A47120D82435DBE600037D27 /* 02.usdz */,
+				A47120DC2435DBE900037D27 /* 03.usdz */,
+				A47120DF2435DBEA00037D27 /* 04.usdz */,
+				A47120D92435DBE700037D27 /* 05.usdz */,
+				A47120DB2435DBE800037D27 /* 06.usdz */,
+				A47120DA2435DBE700037D27 /* 07.usdz */,
+				A47120DD2435DBE900037D27 /* 08.usdz */,
 				A47120C42435B9E500037D27 /* AppDelegate.swift */,
 				A47120C62435B9E500037D27 /* ViewController.swift */,
 				A47120CA2435B9E500037D27 /* Main.storyboard */,
@@ -122,8 +146,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47120E32435DBEA00037D27 /* 06.usdz in Resources */,
+				A47120E22435DBEA00037D27 /* 07.usdz in Resources */,
 				A47120D12435B9EA00037D27 /* LaunchScreen.storyboard in Resources */,
+				A47120E52435DBEA00037D27 /* 08.usdz in Resources */,
+				A47120E02435DBEA00037D27 /* 02.usdz in Resources */,
 				A47120CE2435B9EA00037D27 /* Assets.xcassets in Resources */,
+				A47120E62435DBEA00037D27 /* 01.usdz in Resources */,
+				A47120E72435DBEA00037D27 /* 04.usdz in Resources */,
+				A47120E12435DBEA00037D27 /* 05.usdz in Resources */,
+				A47120E42435DBEA00037D27 /* 03.usdz in Resources */,
 				A47120CC2435B9E500037D27 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
