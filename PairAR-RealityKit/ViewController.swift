@@ -36,12 +36,13 @@ class ViewController: UIViewController {
             cards.append(model)
         }
         
+        // Position the shuffled cards in a 4-by-4 grid
         for (index, card) in cards.enumerated() {
             let x = Float(index % 4)
             let z = Float(index / 4)
             
             card.position = [x * 0.1, 0, z * 0.1]
-            // add card
+            // add the card to the anchor
             anchor.addChild(card)
         }
         
@@ -83,6 +84,7 @@ class ViewController: UIViewController {
                 
             }
             objects.shuffle()
+            // add object model usdz to card
             for (index, object) in objects.enumerated() {
                 cards[index].addChild(object)
                 cards[index].transform.rotation = simd_quatf(angle: .pi, axis: [1, 0, 0])
